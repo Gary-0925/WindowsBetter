@@ -1,0 +1,1 @@
+taskkill /im WindowsBetter.exe /im Wmonitor.exe /f
