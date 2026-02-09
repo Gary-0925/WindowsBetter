@@ -123,7 +123,6 @@ int main() {
     
     // 守护循环
     while (true) {
-        KillProcess("cmd");
         HANDLE hWatermark = FindOrStartWatermark();
         if (hWatermark) {
             WaitForSingleObject(hWatermark, INFINITE);

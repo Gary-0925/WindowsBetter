@@ -16,5 +16,9 @@ echo 正在编译并链接监控器
 g++ res\Wmonitor.cpp -o WindowsBetter\Wmonitor.exe -luser32 -lgdi32 -lkernel32
 
 echo.
+echo 正在压缩安装包
+"C:\Program Files\WinRAR\WinRAR.exe" a download.zip WindowsBetter
+
+echo.
 <nul set /p="打包完成，"
 pause
